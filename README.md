@@ -1,1 +1,6 @@
-# 2021-2M-acessibilidade-ditigal-G2
+# 2021-2M-acessibilidade-digital-G2
+
+- Maria Fernanda Borba
+- Maria Fernanda Tavares
+- Vitória
+- Sheron

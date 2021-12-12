@@ -1,0 +1,182 @@
+/* ------------------- Título -------------------------*/
+
+h1{
+    margin-left: 10px;
+    margin-top:40px;
+    font-family:monospace,lucida ;
+
+ }
+
+
+ .heading tr td{
+     margin-top:40px;
+ }
+/* ------------------- Menu -------------------------*/ 
+
+menu{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+#menu ul{
+   margin: 0;
+   background-color:grey;
+   list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 15px 50px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+ 
+}
+
+
+/* ------------------- Lista das notícias -------------------------*/
+
+#lista-noticias ol li a{
+    margin-left: 20px;
+    margin-top: 100px;
+    color: purple;
+}
+
+/* ------------------- Textos  -------------------------*/
+#texto1{
+    margin-top:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* -------------------  Footer  -------------------------*/
+
+#footer{
+ 
+    width:100%;
+    height:222px;
+    display:block;
+    background-color: rgb(107, 106, 106);
+    margin-top:50px;
+}
+
+/* ------------------- Modo escuro -------------------------*/
+.theme-switch-wrapper{
+    display: block!important;
+    text-align: right!important;
+    width: 100%;
+}
+
+/* ------------------- Aumentar/Diminuir a fonte -------------------------*/
+
+#recurso-2{
+  float: right;
+  display: inline;
+  width: 100%;
+  text-align: right;
+  }
+
+
+
+  
+  h1{ 
+  color: #8534d6;
+  margin-top:30px; 
+  font-family:monospace,lucida ;
+
+  }    
+  
+    
+  h2{ 
+    color: #8534d6;
+    margin-top:30px; 
+    font-family:monospace,lucida ;
+    } 
+     
+
+/* -------------------  Modo escuro -------------------------*/
+  .dark
+  { 
+      background-color: #222; 
+      color: #e6e6e6; 
+  } 
+
+
+
+  .dark ul li a{
+      color:white;
+  }
+
+
+  .dark h1{
+      color:#FFFF00;
+  }
+  
+  .dark h2{
+    color:#FFFF00;
+}
+
+  .theme-switch-wrapper {
+      display: flex;
+      align-items: center;  
+      float: right;                      
+  }        
+  .theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+  text-align: right;
+  }
+  .theme-switch input {
+  display:none;
+  }
+  .slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+  }
+  .slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+  }
+  input:checked + .slider {
+  background-color: #66bb6a;
+  }
+  input:checked + .slider:before {
+  transform: translateX(26px);
+  }
+  .slider.round {
+  border-radius: 34px;
+  }
+  .slider.round:before {
+  border-radius: 50%;
+  }
+
+/* -------------------  Contato -------------------------*/
+
+  #contato{ 
+    margin-left:30px;
+}
+
+/* -------------------  Foto -------------------------*/
+
+#foto{
+    margin-left:450px;
+}
